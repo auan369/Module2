@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="activities.html">Activities</a>
+    </nav>
+    <h1>Contact Me</h1>
+</header>
+<div class="contact">
+    <!-- <div style="background-color: #E1EEF;"> -->
+    <h2 style="margin: 10px;">Connect with Me!</h2>
+    <form style="margin: 10px;">
+         <label for="name">Your name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Name"><br>
+        <label for="phone">Your phone number:</label><br>
+        <input type="text" id="phone" name="phone" placeholder="Phone"><br>
+
+        <h4>What do you like to do in Bangkok?</h4>
+        <input type="radio" id="temples" name="rate" value="temples">
+        <label for="temples">Visiting Temples</label><br>
+        <input type="radio" id="shopping" name="rate" value="shopping">
+        <label for="shopping">Shopping</label><br>
+        <input type="radio" id="others" name="rate" value="others">
+        <label for="others">Others</label><br>
+        <br>
+        <button onclick="alert('Submitted form!')">Submit</button>
+    </form>
+</div>
+<footer>
+    <p>
+        <a href="tel:932320332">Call Me</a>
+        <a href="mailto:james@gmail.com">Email Me</a>
+        &copy; 2021 James
+    </p>
+</footer>
+</body>
+</html>
